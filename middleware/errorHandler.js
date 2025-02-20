@@ -26,7 +26,7 @@ const logger = winston.createLogger({
 
 const errorHandler = (err, req, res, next)=>{
   logger.error(err.message)
-  res.status(500).send('Something went wrong', err.message)
+  res.status(500).send({message: 'Something went wrong', error: err.message})
 }
 
 module.exports = {errorHandler, logger}

@@ -1,650 +1,384 @@
 {
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T20:57:41.500Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T20:57:41.518Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:01:55.555Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:01:55.581Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:01.708Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:01.716Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:07.850Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:07.858Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:09.626Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:09.633Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:12.756Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:12.764Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:16.974Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:16.981Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:19.845Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:19.853Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:26.087Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:26.096Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:31.374Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:31.381Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:34.055Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:02:34.062Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:36.527Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:36.535Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:37.567Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:37.574Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:38.888Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:38.896Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:40.742Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:40.750Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:43.506Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:43.514Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:45.889Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:45.951Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:49.704Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:49.712Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:52.100Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:52.108Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:54.109Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:54.116Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:55.909Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:55.917Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:58.293Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:04:58.300Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:05:09.068Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:05:09.076Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:05:11.182Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:05:11.190Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:05:12.826Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:05:12.834Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:05:14.424Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:05:14.434Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:05:23.299Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:05:23.307Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:08:39.160Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:08:39.176Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:40.348Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:40.357Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:43.086Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:43.094Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:44.797Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:44.804Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:50.704Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:50.713Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:51.851Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:51.858Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:53.374Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:53.381Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:55.074Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:55.081Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:57.708Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:09:57.716Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:00.197Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:00.204Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:01.828Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:01.835Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:03.312Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:03.320Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:04.795Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:04.806Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:06.265Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:06.272Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:08.200Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:08.208Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:47.652Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:47.660Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:57.497Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:10:57.506Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:00.758Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:00.766Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:16.100Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:16.108Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:17.335Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:17.342Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:19.594Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:19.601Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:24.077Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:24.086Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:31.871Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:31.878Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:33.676Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:33.683Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:35.829Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:11:35.837Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:12:57.169Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:12:57.177Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:12:59.769Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:12:59.776Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:13:01.226Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:13:01.233Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T21:13:03.430Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T21:13:03.439Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T23:01:34.291Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T23:01:34.309Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T23:01:42.067Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T23:01:42.074Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T23:01:57.473Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T23:01:57.484Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T23:02:00.515Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T23:02:00.524Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T23:02:06.186Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T23:02:06.199Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T23:02:16.851Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T23:02:16.867Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T23:02:20.859Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T23:02:20.870Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T23:02:22.852Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T23:02:22.864Z'
-}
-{
-  message: 'Server is running on PORT 4321',
-  level: 'info',
-  timestamp: '2025-02-19T23:02:25.785Z'
-}
-{
-  message: 'Connected to MongoDB',
-  level: 'info',
-  timestamp: '2025-02-19T23:02:25.794Z'
+  error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+      at ServerResponse.setHeader (node:_http_outgoing:659:11)
+      at ServerResponse.header (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:794:10)
+      at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:174:12)
+      at ServerResponse.json (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:278:15)
+      at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:162:21)
+      at /Users/mac/IdeaProjects/Bookah/routes/users.js:29:23
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'ERR_HTTP_HEADERS_SENT'
+  },
+  level: 'error',
+  message: 'unhandledRejection: Cannot set headers after they are sent to the client\n' +
+    'Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n' +
+    '    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n' +
+    '    at ServerResponse.header (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:794:10)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:174:12)\n' +
+    '    at ServerResponse.json (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:278:15)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:162:21)\n' +
+    '    at /Users/mac/IdeaProjects/Bookah/routes/users.js:29:23\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: 'Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n' +
+    '    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n' +
+    '    at ServerResponse.header (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:794:10)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:174:12)\n' +
+    '    at ServerResponse.json (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:278:15)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:162:21)\n' +
+    '    at /Users/mac/IdeaProjects/Bookah/routes/users.js:29:23\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  rejection: true,
+  date: 'Thu Feb 20 2025 12:12:56 GMT+0100 (West Africa Standard Time)',
+  process: {
+    pid: 60511,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/mac/IdeaProjects/Bookah',
+    execPath: '/usr/local/bin/node',
+    version: 'v20.13.0',
+    argv: [ '/usr/local/bin/node', '/Users/mac/IdeaProjects/Bookah/app.js' ],
+    memoryUsage: {
+      rss: 32751616,
+      heapTotal: 23560192,
+      heapUsed: 21613248,
+      external: 20511449,
+      arrayBuffers: 18287044
+    }
+  },
+  os: {
+    loadavg: [ 2.62353515625, 3.0185546875, 3.19287109375 ],
+    uptime: 300067
+  },
+  trace: [
+    {
+      column: 11,
+      file: 'node:_http_outgoing',
+      function: 'ServerResponse.setHeader',
+      line: 659,
+      method: 'setHeader',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js',
+      function: 'ServerResponse.header',
+      line: 794,
+      method: 'header',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js',
+      function: 'ServerResponse.send',
+      line: 174,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js',
+      function: 'ServerResponse.json',
+      line: 278,
+      method: 'json',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js',
+      function: 'ServerResponse.send',
+      line: 162,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/mac/IdeaProjects/Bookah/routes/users.js',
+      function: null,
+      line: 29,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2025-02-20T11:12:56.054Z'
+}
+{
+  message: 'Server is running on PORT 4321',
+  level: 'info',
+  timestamp: '2025-02-20T11:15:13.146Z'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-20T11:15:13.158Z'
+}
+{
+  error: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: User successfully created
+      at ServerResponse.writeHead (node:_http_server:352:11)
+      at ServerResponse._implicitHeader (node:_http_server:338:8)
+      at write_ (node:_http_outgoing:945:9)
+      at ServerResponse.end (node:_http_outgoing:1056:5)
+      at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:232:10)
+      at ServerResponse.json (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:278:15)
+      at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:162:21)
+      at /Users/mac/IdeaProjects/Bookah/routes/users.js:30:19
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'ERR_HTTP_INVALID_STATUS_CODE'
+  },
+  level: 'error',
+  message: 'unhandledRejection: Invalid status code: User successfully created\n' +
+    'RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: User successfully created\n' +
+    '    at ServerResponse.writeHead (node:_http_server:352:11)\n' +
+    '    at ServerResponse._implicitHeader (node:_http_server:338:8)\n' +
+    '    at write_ (node:_http_outgoing:945:9)\n' +
+    '    at ServerResponse.end (node:_http_outgoing:1056:5)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:232:10)\n' +
+    '    at ServerResponse.json (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:278:15)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:162:21)\n' +
+    '    at /Users/mac/IdeaProjects/Bookah/routes/users.js:30:19\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: 'RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: User successfully created\n' +
+    '    at ServerResponse.writeHead (node:_http_server:352:11)\n' +
+    '    at ServerResponse._implicitHeader (node:_http_server:338:8)\n' +
+    '    at write_ (node:_http_outgoing:945:9)\n' +
+    '    at ServerResponse.end (node:_http_outgoing:1056:5)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:232:10)\n' +
+    '    at ServerResponse.json (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:278:15)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:162:21)\n' +
+    '    at /Users/mac/IdeaProjects/Bookah/routes/users.js:30:19\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  rejection: true,
+  date: 'Thu Feb 20 2025 12:15:17 GMT+0100 (West Africa Standard Time)',
+  process: {
+    pid: 63073,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/mac/IdeaProjects/Bookah',
+    execPath: '/usr/local/bin/node',
+    version: 'v20.13.0',
+    argv: [ '/usr/local/bin/node', '/Users/mac/IdeaProjects/Bookah/app.js' ],
+    memoryUsage: {
+      rss: 80248832,
+      heapTotal: 59211776,
+      heapUsed: 20678928,
+      external: 20495030,
+      arrayBuffers: 18270625
+    }
+  },
+  os: {
+    loadavg: [ 1.91259765625, 2.6064453125, 2.99853515625 ],
+    uptime: 300208
+  },
+  trace: [
+    {
+      column: 11,
+      file: 'node:_http_server',
+      function: 'ServerResponse.writeHead',
+      line: 352,
+      method: 'writeHead',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'node:_http_server',
+      function: 'ServerResponse._implicitHeader',
+      line: 338,
+      method: '_implicitHeader',
+      native: false
+    },
+    {
+      column: 9,
+      file: 'node:_http_outgoing',
+      function: 'write_',
+      line: 945,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:_http_outgoing',
+      function: 'ServerResponse.end',
+      line: 1056,
+      method: 'end',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js',
+      function: 'ServerResponse.send',
+      line: 232,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js',
+      function: 'ServerResponse.json',
+      line: 278,
+      method: 'json',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js',
+      function: 'ServerResponse.send',
+      line: 162,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/mac/IdeaProjects/Bookah/routes/users.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2025-02-20T11:15:17.073Z'
+}
+{
+  message: 'Server is running on PORT 4321',
+  level: 'info',
+  timestamp: '2025-02-20T11:16:14.821Z'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-20T11:16:14.830Z'
+}
+{
+  message: 'Server is running on PORT 4321',
+  level: 'info',
+  timestamp: '2025-02-20T11:23:10.074Z'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-20T11:23:10.091Z'
+}
+{
+  message: 'Server is running on PORT 4321',
+  level: 'info',
+  timestamp: '2025-02-20T11:25:39.262Z'
+}
+{
+  message: 'Connected to MongoDB',
+  level: 'info',
+  timestamp: '2025-02-20T11:25:39.271Z'
+}
+{
+  error: MongoServerError: E11000 duplicate key error collection: bookaholic.users index: email_1 dup key: { email: "nijibolutife@gmail.com" }
+      at InsertOneOperation.execute (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/insert.js:51:19)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async tryOperation (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+      at async executeOperation (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+      at async Collection.insertOne (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/collection.js:157:16) {
+    errorLabelSet: Set(0) {},
+    errorResponse: {
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: bookaholic.users index: email_1 dup key: { email: "nijibolutife@gmail.com" }',
+      keyPattern: { email: 1 },
+      keyValue: { email: 'nijibolutife@gmail.com' }
+    },
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'nijibolutife@gmail.com' }
+  },
+  level: 'error',
+  message: 'unhandledRejection: E11000 duplicate key error collection: bookaholic.users index: email_1 dup key: { email: "nijibolutife@gmail.com" }\n' +
+    'MongoServerError: E11000 duplicate key error collection: bookaholic.users index: email_1 dup key: { email: "nijibolutife@gmail.com" }\n' +
+    '    at InsertOneOperation.execute (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/insert.js:51:19)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async tryOperation (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n' +
+    '    at async executeOperation (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n' +
+    '    at async Collection.insertOne (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/collection.js:157:16)',
+  stack: 'MongoServerError: E11000 duplicate key error collection: bookaholic.users index: email_1 dup key: { email: "nijibolutife@gmail.com" }\n' +
+    '    at InsertOneOperation.execute (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/insert.js:51:19)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async tryOperation (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n' +
+    '    at async executeOperation (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n' +
+    '    at async Collection.insertOne (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/collection.js:157:16)',
+  rejection: true,
+  date: 'Thu Feb 20 2025 12:25:45 GMT+0100 (West Africa Standard Time)',
+  process: {
+    pid: 64697,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/mac/IdeaProjects/Bookah',
+    execPath: '/usr/local/bin/node',
+    version: 'v20.13.0',
+    argv: [ '/usr/local/bin/node', '/Users/mac/IdeaProjects/Bookah/app.js' ],
+    memoryUsage: {
+      rss: 64077824,
+      heapTotal: 59244544,
+      heapUsed: 22874880,
+      external: 20496520,
+      arrayBuffers: 18272115
+    }
+  },
+  os: {
+    loadavg: [ 2.5771484375, 3.15869140625, 3.111328125 ],
+    uptime: 300835
+  },
+  trace: [
+    {
+      column: 19,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/insert.js',
+      function: 'InsertOneOperation.execute',
+      line: 51,
+      method: 'execute',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 20,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js',
+      function: 'async tryOperation',
+      line: 207,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js',
+      function: 'async executeOperation',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/collection.js',
+      function: 'async Collection.insertOne',
+      line: 157,
+      method: 'insertOne',
+      native: false
+    }
+  ],
+  timestamp: '2025-02-20T11:25:45.606Z'
 }

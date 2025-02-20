@@ -1,0 +1,344 @@
+{
+  error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+      at ServerResponse.setHeader (node:_http_outgoing:659:11)
+      at ServerResponse.header (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:794:10)
+      at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:174:12)
+      at ServerResponse.json (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:278:15)
+      at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:162:21)
+      at /Users/mac/IdeaProjects/Bookah/routes/users.js:29:23
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'ERR_HTTP_HEADERS_SENT'
+  },
+  level: 'error',
+  message: 'unhandledRejection: Cannot set headers after they are sent to the client\n' +
+    'Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n' +
+    '    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n' +
+    '    at ServerResponse.header (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:794:10)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:174:12)\n' +
+    '    at ServerResponse.json (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:278:15)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:162:21)\n' +
+    '    at /Users/mac/IdeaProjects/Bookah/routes/users.js:29:23\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: 'Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n' +
+    '    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n' +
+    '    at ServerResponse.header (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:794:10)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:174:12)\n' +
+    '    at ServerResponse.json (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:278:15)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:162:21)\n' +
+    '    at /Users/mac/IdeaProjects/Bookah/routes/users.js:29:23\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  rejection: true,
+  date: 'Thu Feb 20 2025 12:12:56 GMT+0100 (West Africa Standard Time)',
+  process: {
+    pid: 60511,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/mac/IdeaProjects/Bookah',
+    execPath: '/usr/local/bin/node',
+    version: 'v20.13.0',
+    argv: [ '/usr/local/bin/node', '/Users/mac/IdeaProjects/Bookah/app.js' ],
+    memoryUsage: {
+      rss: 32751616,
+      heapTotal: 23560192,
+      heapUsed: 21613248,
+      external: 20511449,
+      arrayBuffers: 18287044
+    }
+  },
+  os: {
+    loadavg: [ 2.62353515625, 3.0185546875, 3.19287109375 ],
+    uptime: 300067
+  },
+  trace: [
+    {
+      column: 11,
+      file: 'node:_http_outgoing',
+      function: 'ServerResponse.setHeader',
+      line: 659,
+      method: 'setHeader',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js',
+      function: 'ServerResponse.header',
+      line: 794,
+      method: 'header',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js',
+      function: 'ServerResponse.send',
+      line: 174,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js',
+      function: 'ServerResponse.json',
+      line: 278,
+      method: 'json',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js',
+      function: 'ServerResponse.send',
+      line: 162,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/mac/IdeaProjects/Bookah/routes/users.js',
+      function: null,
+      line: 29,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2025-02-20T11:12:56.054Z'
+}
+{
+  error: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: User successfully created
+      at ServerResponse.writeHead (node:_http_server:352:11)
+      at ServerResponse._implicitHeader (node:_http_server:338:8)
+      at write_ (node:_http_outgoing:945:9)
+      at ServerResponse.end (node:_http_outgoing:1056:5)
+      at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:232:10)
+      at ServerResponse.json (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:278:15)
+      at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:162:21)
+      at /Users/mac/IdeaProjects/Bookah/routes/users.js:30:19
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'ERR_HTTP_INVALID_STATUS_CODE'
+  },
+  level: 'error',
+  message: 'unhandledRejection: Invalid status code: User successfully created\n' +
+    'RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: User successfully created\n' +
+    '    at ServerResponse.writeHead (node:_http_server:352:11)\n' +
+    '    at ServerResponse._implicitHeader (node:_http_server:338:8)\n' +
+    '    at write_ (node:_http_outgoing:945:9)\n' +
+    '    at ServerResponse.end (node:_http_outgoing:1056:5)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:232:10)\n' +
+    '    at ServerResponse.json (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:278:15)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:162:21)\n' +
+    '    at /Users/mac/IdeaProjects/Bookah/routes/users.js:30:19\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: 'RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: User successfully created\n' +
+    '    at ServerResponse.writeHead (node:_http_server:352:11)\n' +
+    '    at ServerResponse._implicitHeader (node:_http_server:338:8)\n' +
+    '    at write_ (node:_http_outgoing:945:9)\n' +
+    '    at ServerResponse.end (node:_http_outgoing:1056:5)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:232:10)\n' +
+    '    at ServerResponse.json (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:278:15)\n' +
+    '    at ServerResponse.send (/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js:162:21)\n' +
+    '    at /Users/mac/IdeaProjects/Bookah/routes/users.js:30:19\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  rejection: true,
+  date: 'Thu Feb 20 2025 12:15:17 GMT+0100 (West Africa Standard Time)',
+  process: {
+    pid: 63073,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/mac/IdeaProjects/Bookah',
+    execPath: '/usr/local/bin/node',
+    version: 'v20.13.0',
+    argv: [ '/usr/local/bin/node', '/Users/mac/IdeaProjects/Bookah/app.js' ],
+    memoryUsage: {
+      rss: 80248832,
+      heapTotal: 59211776,
+      heapUsed: 20678928,
+      external: 20495030,
+      arrayBuffers: 18270625
+    }
+  },
+  os: {
+    loadavg: [ 1.91259765625, 2.6064453125, 2.99853515625 ],
+    uptime: 300208
+  },
+  trace: [
+    {
+      column: 11,
+      file: 'node:_http_server',
+      function: 'ServerResponse.writeHead',
+      line: 352,
+      method: 'writeHead',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'node:_http_server',
+      function: 'ServerResponse._implicitHeader',
+      line: 338,
+      method: '_implicitHeader',
+      native: false
+    },
+    {
+      column: 9,
+      file: 'node:_http_outgoing',
+      function: 'write_',
+      line: 945,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:_http_outgoing',
+      function: 'ServerResponse.end',
+      line: 1056,
+      method: 'end',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js',
+      function: 'ServerResponse.send',
+      line: 232,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js',
+      function: 'ServerResponse.json',
+      line: 278,
+      method: 'json',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/express/lib/response.js',
+      function: 'ServerResponse.send',
+      line: 162,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/mac/IdeaProjects/Bookah/routes/users.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2025-02-20T11:15:17.073Z'
+}
+{
+  error: MongoServerError: E11000 duplicate key error collection: bookaholic.users index: email_1 dup key: { email: "nijibolutife@gmail.com" }
+      at InsertOneOperation.execute (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/insert.js:51:19)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async tryOperation (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js:207:20)
+      at async executeOperation (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+      at async Collection.insertOne (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/collection.js:157:16) {
+    errorLabelSet: Set(0) {},
+    errorResponse: {
+      index: 0,
+      code: 11000,
+      errmsg: 'E11000 duplicate key error collection: bookaholic.users index: email_1 dup key: { email: "nijibolutife@gmail.com" }',
+      keyPattern: { email: 1 },
+      keyValue: { email: 'nijibolutife@gmail.com' }
+    },
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'nijibolutife@gmail.com' }
+  },
+  level: 'error',
+  message: 'unhandledRejection: E11000 duplicate key error collection: bookaholic.users index: email_1 dup key: { email: "nijibolutife@gmail.com" }\n' +
+    'MongoServerError: E11000 duplicate key error collection: bookaholic.users index: email_1 dup key: { email: "nijibolutife@gmail.com" }\n' +
+    '    at InsertOneOperation.execute (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/insert.js:51:19)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async tryOperation (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n' +
+    '    at async executeOperation (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n' +
+    '    at async Collection.insertOne (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/collection.js:157:16)',
+  stack: 'MongoServerError: E11000 duplicate key error collection: bookaholic.users index: email_1 dup key: { email: "nijibolutife@gmail.com" }\n' +
+    '    at InsertOneOperation.execute (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/insert.js:51:19)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async tryOperation (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n' +
+    '    at async executeOperation (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n' +
+    '    at async Collection.insertOne (/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/collection.js:157:16)',
+  rejection: true,
+  date: 'Thu Feb 20 2025 12:25:45 GMT+0100 (West Africa Standard Time)',
+  process: {
+    pid: 64697,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/mac/IdeaProjects/Bookah',
+    execPath: '/usr/local/bin/node',
+    version: 'v20.13.0',
+    argv: [ '/usr/local/bin/node', '/Users/mac/IdeaProjects/Bookah/app.js' ],
+    memoryUsage: {
+      rss: 64077824,
+      heapTotal: 59244544,
+      heapUsed: 22874880,
+      external: 20496520,
+      arrayBuffers: 18272115
+    }
+  },
+  os: {
+    loadavg: [ 2.5771484375, 3.15869140625, 3.111328125 ],
+    uptime: 300835
+  },
+  trace: [
+    {
+      column: 19,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/insert.js',
+      function: 'InsertOneOperation.execute',
+      line: 51,
+      method: 'execute',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 20,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js',
+      function: 'async tryOperation',
+      line: 207,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/operations/execute_operation.js',
+      function: 'async executeOperation',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/mac/IdeaProjects/Bookah/node_modules/mongodb/lib/collection.js',
+      function: 'async Collection.insertOne',
+      line: 157,
+      method: 'insertOne',
+      native: false
+    }
+  ],
+  timestamp: '2025-02-20T11:25:45.606Z'
+}

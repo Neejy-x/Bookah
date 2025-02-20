@@ -1,36 +1,41 @@
 const express = require('express')
 const router = express.Router()
 const bcrypt = require('bcrypt')
+const _ = require('lodash')
+const userAuth = require('../middleware/userAuth')
+const adminAuth = require('../middleware/adminAuth')
 const{User, validateUser} = require('../model/user')
 
 
 
-router.get('/', (req, res)=>{
+router.get('/', [userAuth, adminAuth], (req, res)=>{
  const users = User.find()
  res.send(users)
 })
 
+
+
 router.post('/register', async(req, res)=>{
-  const{name, email, password, isAdmin} = req.body
+  const{name, email, password} = req.body
+
   const {error} = validateUser(req.body)
-  if(error) return res.status(400).send(error.details[0].message)
+  if(error) return res.status(400).send(error.details.map(err => err.message))
   
   const user = new User({
     name: name,
     email: email,
     password: await bcrypt.hash(password, 10),
-    isAdmin: isAdmin
   })
   await user.save()
-  res.sendStatus(201).send('User successfully created', user)
+  const __ = _.pick(user, ['name', 'email'])
+
+  res.status(201).send({message: 'Signup Successful ', __})
 })
 
 
 
 router.post('/auth', async(req, res)=>{
   const {email, password} = req.body
-
-
   const user = await User.findOne({email})
   if(!user) return res.status(400).send(('Invalid Username or Password'))
   
@@ -40,3 +45,22 @@ router.post('/auth', async(req, res)=>{
   const token = user.genreateAuthToken()
   res.headersSent('x-auth-token', token).send(`Welcome ${user.name}`, user)
 })
+
+
+
+router.post('/:id/admin', [userAuth, adminAuth], async(req, res)=>{
+  const {id} = req.params.id
+  const user = await User.findById(id)
+  user.isAdmin = true
+  await user.save()
+})
+
+router.delete('/:id', [userAuth, adminAuth], async(req, res)=>{
+const user = await User.findByIdAndDelete(req.params.id)
+if(!user) return res.status(404).send('User not found')
+
+res.send('User Successfully deleted', user)
+})
+
+
+module.exports = router

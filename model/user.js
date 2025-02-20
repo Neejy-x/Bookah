@@ -17,7 +17,8 @@ const userSchema = new mongoose.Schema({
   password:{
     type: String,
     required: true,
-    minlength: 8
+    minlength: 8,
+    maxlenght: 255
   },
   isAdmin:{
     type: Boolean,
@@ -36,10 +37,10 @@ const validateUser = (user)=>{
 const schema = Joi.object({
   name: Joi.string().required().max(75),
   email: Joi.string().required().max(255).email(),
-  password: Joi.string().required().min(8),
+  password: Joi.string().required().min(8).max(255),
   isAdmin: Joi.boolean().required()
 })
-return schema.validate(user)
+return schema.validate(user, {abortEarly: false}) 
 }
 
 module.exports = {User, validateUser}
