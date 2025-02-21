@@ -2,12 +2,14 @@ require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
 const users = require('./routes/users')
+const genres = require('./routes/genres')
 const {errorHandler, logger} = require('./middleware/errorHandler')
 const app = express()
 
 
 app.use(express.json())
 app.use('/api/users', users)
+app.use('/api/genres', genres)
 app.use(express.static('public'))
 app.use(errorHandler)
 

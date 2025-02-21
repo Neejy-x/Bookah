@@ -7,7 +7,7 @@ const userAuth = async(req, res, next)=>{
   if(!token) return res.status(401).send('Access Desnied. No token provided')
 
   try{
-    const decoded = jwt.verify(token, process.env.SCERET_ACCESS_TOKEN)
+    const decoded = jwt.verify(token, process.env.SECRET_ACCESS_TOKEN)
     req.user = decoded
     next()
   }catch(e){

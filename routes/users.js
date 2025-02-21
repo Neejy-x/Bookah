@@ -42,8 +42,9 @@ router.post('/auth', async(req, res)=>{
   const validPassword = await bcrypt.compare(password, user.password)
   if(!validPassword) return res.status(400).send('Invalid Username or Password')
   
-  const token = user.genreateAuthToken()
-  res.headersSent('x-auth-token', token).send(`Welcome ${user.name}`, user)
+  const token = user.genrateAuthToken()
+  const signedIn = _.pick(user, ['name', 'email'])
+  res.header('x-auth-token', token).send({message: `Welcome ${user.name}`, signedIn})
 })
 
 
